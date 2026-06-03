@@ -1,0 +1,30 @@
+# ── MedFlow Imaging Microservice ──
+# Phase 1: Foundation Dependencies
+
+# Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.18
+
+# Database
+sqlalchemy==2.0.36
+pyodbc==5.2.0
+alembic==1.14.1
+
+# AWS S3
+boto3==1.35.81
+
+# DICOM Parsing
+pydicom==2.4.4
+
+# Image Processing
+Pillow==11.1.0
+numpy==1.26.4
+
+# Config
+python-dotenv==1.0.1
+pydantic-settings==2.7.1
+
+# Dev / Testing
+pytest==8.3.4
+httpx==0.28.1
